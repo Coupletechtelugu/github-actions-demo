@@ -1,0 +1,22 @@
+{
+  "name": "github-actions-demo",
+  "version": "1.0.0",
+  "description": "Demo repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "mkdir -p dist && cp index.js dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coupletechtelugu/github-actions-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Coupletechtelugu/github-actions-demo/issues"
+  },
+  "homepage": "https://github.com/Coupletechtelugu/github-actions-demo#readme"
+}
