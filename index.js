@@ -1,5 +1,13 @@
-function add(a, b) {
-  return a + b;
-}
+const express = require('express');
 
-module.exports = { add };
+const app = express();
+
+const PORT = 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hello! Docker application is running successfully.');
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});

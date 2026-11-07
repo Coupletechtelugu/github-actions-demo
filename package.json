@@ -4,8 +4,7 @@
   "description": "Demo repo",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
-    "build": "mkdir -p dist && cp index.js dist/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Coupletechtelugu/github-actions-demo/issues"
   },
-  "homepage": "https://github.com/Coupletechtelugu/github-actions-demo#readme"
+  "homepage": "https://github.com/Coupletechtelugu/github-actions-demo#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
 }
